@@ -28,3 +28,4 @@ $kernel = new AppKernel('prod', false);
 $kernel->loadClassCache();
 
 Stack\run((new MiddlewareBuilder('prod'))->resolve($kernel));
+// asdf
